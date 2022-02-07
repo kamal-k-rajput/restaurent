@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style/checkout.css" />
+  </head>
+
+  <body>
+    <div id="order-form">
+      <!--Add your form html element here-->
+      <!--In form, give #name,#number and #address as HTML id's to relevant input elements -->
+      <form action="" id="form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" placeholder="Enter Your Name" required />
+        <label for="number">Your Number:</label>
+        <input
+          type="number"
+          id="number"
+          placeholder="Enter Your Number"
+          required
+        />
+        <label for="email">Enter Your Email:</label>
+        <input
+          type="email"
+          placeholder="Enter Your Email"
+          id="email"
+          required
+        />
+        <label for="address">Enter your full address:</label>
+        <textarea
+          id="address"
+          name="address"
+          placeholder="Enter Your address"
+          required
+        ></textarea>
+        <input type="submit" id="submit" value="submit" />
+      </form>
+    </div>
+  </body>
+</html>
+<script type="text/javascript" src="scripts/checkout.js"></script>
